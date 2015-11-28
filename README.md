@@ -37,7 +37,7 @@ subject.notify(context);
 ### Browser
 
 ```
-<script type="text/javascript" src="../src/observer/observer.js"></script>
+<script type="text/javascript" src="../src/observer.js"></script>
 <script type="text/javascript">
 	
 var subject = new observerPattern.createSubject();
