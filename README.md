@@ -7,7 +7,9 @@ npm install design-pattern --save-dev
 ```
 #Usage
 * [Observer](#observer)
+
 ## <a name="observer"></a>Observer pattern
+
 ### Node.js
 ```
 var designPatterns = require('design-pattern'),
@@ -31,7 +33,9 @@ subject.addObserver(observer2);
 var context = {data: 'data'};
 subject.notify(context);
 ```
+
 ### Browser
+
 ```
 <script type="text/javascript" src="../src/observer/observer.js"></script>
 <script type="text/javascript">
@@ -56,7 +60,9 @@ subject.notify(context);
 
 </script>
 ```
-###Output
+
+### Output
+
 ```
 Observer(1) context { data: 'data' }
 Observer(2) context { data: 'data' }
