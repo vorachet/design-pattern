@@ -1,11 +1,10 @@
 (function(exports){
 
-	exports.createSubject = function(){
-		return new Subject();
+	exports.stuff = function(){
+		return new Stuff();
 	};
 
-	var Subject = function(){
-	  this.observers = new ObserverList();
+	var Stuff = function(){
 	};
 
-}(typeof exports === 'undefined' ? this.xPattern = {} : exports));
+}(typeof exports === 'undefined' ? this.namedPattern = {} : exports));
