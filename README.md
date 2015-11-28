@@ -1,12 +1,65 @@
 # design-pattern
-Javascript Design Pattern for Both Browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns" and learn javascript design pattern using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and professional developers who wishing to run the original source code in Browser and Node.js.
+Javascript Design Pattern for both browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns" and learn javascript design pattern using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and javascript developers who wishing to run the design pattern examples in Browser and Node.js. 
 
 #Install 
 ```
 npm install design-pattern --save-dev
 ```
 #Usage
+* [Facade](#facade)
 * [Observer](#observer)
+
+## <a name="facade"></a>Facade pattern
+
+### Node.js
+```
+var designPatterns = require('design-pattern'),
+    facadePattern =  designPatterns.facadePattern(),
+    moduleA = facadePattern.moduleA(),
+    contextA = {param1: 10, param2: 20, param3: 30, param4: 40},
+    moduleB = facadePattern.moduleB(),
+    contextB = {param1: 'A', param2: 'B', param3: 'C'};
+
+moduleA.facade(contextA);
+moduleB.facade(contextB);
+
+
+```
+
+### Browser
+
+```
+<script type="text/javascript" src="../src/facade.js"></script>
+<script type="text/javascript">
+	
+var moduleA = facadePattern.moduleA(),
+    contextA = {param1: 10, param2: 20, param3: 30, param4: 40},
+    moduleB = facadePattern.moduleB(),
+    contextB = {param1: 'A', param2: 'B', param3: 'C'};
+
+moduleA.facade(contextA);
+moduleB.facade(contextB);
+
+</script>
+```
+
+### Output
+
+```
+ModuleA pre { param1: 10, param2: 20, param3: 30, param4: 40 }
+ModuleA op3 { data: 10 }
+ModuleA op4 { data: 20 }
+ModuleA op3 { data: 30 }
+ModuleA op4 { data: 40 }
+ModuleA op5 { data: 100 }
+ModuleA post { param1: 10, param2: 20, param3: 30, param4: 40 }
+ModuleB pre { param1: 'A', param2: 'B', param3: 'C' }
+ModuleB op1 { data: 'A' }
+ModuleB op2 { data: 'B' }
+ModuleB op3 { data: 'C' }
+ModuleB op4 { data: 'ABC' }
+ModuleB post { param1: 'A', param2: 'B', param3: 'C' }
+```
 
 ## <a name="observer"></a>Observer pattern
 
