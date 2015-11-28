@@ -1,6 +1,6 @@
 'use strict'
 
-var observer = require('./src/observer/observer');
+var observer = require('./src/observer');
 
 module.exports = {
 	observerPattern: observerPattern
