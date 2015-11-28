@@ -1,7 +1,7 @@
 {
   "name": "design-pattern",
-  "version": "0.0.6",
-  "description": "Javascript Design Pattern for both Browser and Node.js",
+  "version": "0.0.7",
+  "description": "Javascript Design Pattern for both browser and Node.js",
   "main": "index.js",
   "repository": {
     "type": "git",
