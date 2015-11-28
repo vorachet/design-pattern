@@ -1,6 +1,6 @@
 # design-pattern
 
-Javascript Design Pattern for both browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns" and learn javascript design pattern using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and javascript developers who wishing to run the design patterns and some of my extended examples in browser and Node.js. 
+Javascript design patterns for both browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns". I learn javascript design patterns using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and javascript developers who wishing to run the design patterns and some of my extended examples in browser and Node.js. 
 
 
 # Install 
