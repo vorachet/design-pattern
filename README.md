@@ -12,7 +12,7 @@ npm install design-pattern --save-dev
 ## <a name="facade"></a>Facade pattern
 
 ### Implementation example
-```
+```javascript
     var ModuleA = function() {
         var name = 'ModuleA',
             _private = {
@@ -108,7 +108,7 @@ npm install design-pattern --save-dev
     };
 ```
 ### Node.js
-```
+```javascript
 var designPatterns = require('design-pattern'),
     facadePattern =  designPatterns.facadePattern(),
     moduleA = facadePattern.moduleA(),
@@ -123,7 +123,7 @@ moduleB.facade(contextB);
 
 ### Browser
 
-```
+```javascript
 <script type="text/javascript" src="../src/facade.js"></script>
 <script type="text/javascript">
 	
@@ -141,7 +141,7 @@ moduleB.facade(contextB);
 
 ### Output
 
-```
+```javascript
 ModuleA pre { param1: 10, param2: 20, param3: 30, param4: 40 }
 ModuleA op3 { data: 10 }
 ModuleA op4 { data: 20 }
@@ -160,7 +160,7 @@ ModuleB post { param1: 'A', param2: 'B', param3: 'C' }
 ## <a name="observer"></a>Observer pattern
 
 ### Node.js
-```
+```javascript
 var designPatterns = require('design-pattern'),
     observerPattern =  designPatterns.observerPattern();
 
@@ -185,7 +185,7 @@ subject.notify(context);
 
 ### Browser
 
-```
+```javascript
 <script type="text/javascript" src="../src/observer.js"></script>
 <script type="text/javascript">
 	
@@ -212,7 +212,7 @@ subject.notify(context);
 
 ### Output
 
-```
+```javascript
 Observer(1) context { data: 'data' }
 Observer(2) context { data: 'data' }
 ```
