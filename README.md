@@ -1,5 +1,7 @@
 # design-pattern
-Javascript Design Pattern for both browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns" and learn javascript design pattern using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and javascript developers who wishing to run the design pattern examples in Browser and Node.js. 
+
+Javascript Design Pattern for both browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns" and learn javascript design pattern using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and javascript developers who wishing to run the design patterns and some of my extended examples in browser and Node.js. 
+
 
 #Install 
 ```
@@ -43,8 +45,8 @@ npm install design-pattern --save-dev
      
             facade: function(context) {
                 _private.pre(context);
-                if (context.param1) _private.op3({data: context.param1});
-                if (context.param2) _private.op4({data: context.param2});
+                if (context.param1) _private.op1({data: context.param1});
+                if (context.param2) _private.op2({data: context.param2});
                 if (context.param3) _private.op3({data: context.param3});
                 if (context.param4) _private.op4({data: context.param4});
                 if (context.param4 > context.param3) {
@@ -143,8 +145,8 @@ moduleB.facade(contextB);
 
 ```javascript
 ModuleA pre { param1: 10, param2: 20, param3: 30, param4: 40 }
-ModuleA op3 { data: 10 }
-ModuleA op4 { data: 20 }
+ModuleA op1 { data: 10 }
+ModuleA op2 { data: 20 }
 ModuleA op3 { data: 30 }
 ModuleA op4 { data: 40 }
 ModuleA op5 { data: 100 }

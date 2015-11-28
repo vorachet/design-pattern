@@ -39,8 +39,8 @@
      
             facade: function(context) {
                 _private.pre(context);
-                if (context.param1) _private.op3({data: context.param1});
-                if (context.param2) _private.op4({data: context.param2});
+                if (context.param1) _private.op1({data: context.param1});
+                if (context.param2) _private.op2({data: context.param2});
                 if (context.param3) _private.op3({data: context.param3});
                 if (context.param4) _private.op4({data: context.param4});
                 if (context.param4 > context.param3) {
