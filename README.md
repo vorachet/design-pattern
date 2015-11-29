@@ -14,21 +14,21 @@ npm install design-pattern
 
 ## <a name="observer"></a>Observer pattern
 
-[Browser usage example](example/observer.html).
-[Node.js usage example](example/observer.js).
-[Implementation example](src/observer.js).
+* [Implementation example](src/observer.js)
+* [Browser usage example](example/observer.html)
+* [Node.js usage example](example/observer.js)
 
 ## <a name="facade"></a>Facade pattern
 
-[Browser usage example](example/facade.html).
-[Node.js usage example](example/facade.js).
-[Implementation example](src/facade.js).
+* [Implementation example](src/facade.js)
+* [Browser usage example](example/facade.html)
+* [Node.js usage example](example/facade.js)
 
 ## <a name="prototype"></a>Prototype pattern
 
-[Browser usage example](example/prototype.html).
-[Node.js usage example](example/prototype.js).
-[Implementation example](src/prototype.js).
+* [Implementation example](src/prototype.js)
+* [Browser usage example](example/prototype.html)
+* [Node.js usage example](example/prototype.js)
 
 # License
 
