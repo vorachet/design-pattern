@@ -1,12 +1,14 @@
 'use strict'
 
-var observer = require('./src/observer');
-var facade = require('./src/facade');
+var observer = require('./src/observer'),
+		facade = require('./src/facade'),
+		prototype = require('./src/prototype');
 
 
 module.exports = {
 	observerPattern: observerPattern,
-	facadePattern: facadePattern
+	facadePattern: facadePattern,
+	prototypePattern: prototypePattern
 };
 
 function observerPattern(){
@@ -15,4 +17,8 @@ function observerPattern(){
 
 function facadePattern(){
 	return facade;
+}
+
+function prototypePattern(){
+	return prototype;
 }

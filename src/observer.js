@@ -11,11 +11,11 @@
 	Subject.prototype.addObserver = function( observer ){
 	  this.observers.add( observer );
 	};
-	 
+
 	Subject.prototype.removeObserver = function( observer ){
 	  this.observers.removeAt( this.observers.indexOf( observer, 0 ) );
 	};
-	 
+
 	Subject.prototype.notify = function( context ){
 	  var observerCount = this.observers.count();
 	  for(var i=0; i < observerCount; i++){
@@ -23,18 +23,18 @@
 	  }
 	};
 
-	ObserverList = function(){
+	var ObserverList = function(){
 	  this.observerList = [];
 	};
-	 
+
 	ObserverList.prototype.add = function( obj ){
 	  return this.observerList.push( obj );
 	};
-	 
+
 	ObserverList.prototype.count = function(){
 	  return this.observerList.length;
 	};
-	 
+
 	ObserverList.prototype.get = function( index ){
 	  if( index > -1 && index < this.observerList.length ){
 	    return this.observerList[ index ];
