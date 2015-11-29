@@ -1,6 +1,6 @@
 {
   "name": "design-pattern",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Javascript design patterns for both browser and Node.js",
   "main": "index.js",
   "repository": {

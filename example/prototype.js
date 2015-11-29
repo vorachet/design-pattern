@@ -1,4 +1,4 @@
-var designPatterns = require('../index'),
+var designPatterns = require('../index'), /* change to "var designPatterns = require('design-pattern');" for using outside the module */
     prototypePattern =  designPatterns.prototypePattern();
 
 var validPhone = prototypePattern.getPrototypeBuilder().createPhonePrototype('validPhone'),
