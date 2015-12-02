@@ -6,6 +6,12 @@ Javascript design patterns for both browser and Node.js. I am a customer of text
 ```
 npm install design-pattern
 ```
+
+#  Clone project 
+```
+git clone https://github.com/vorachet/design-pattern.git
+```
+
 # Usage
 
 ## Creational

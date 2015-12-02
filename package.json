@@ -1,6 +1,6 @@
 {
   "name": "design-pattern",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Javascript design patterns for both browser and Node.js",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,9 @@
     "url": "https://github.com/vorachet/design-pattern.git"
   },
   "keywords": [
-    "Design Patterns"
+    "Design Patterns",
+    "Study",
+    "Learn"
   ],
   "author": "Vorachet Jaroensawas <vorachet@gmail.com>",
   "license": "Creative Commons Attribution-Noncommercial- No Derivative Works 3.0",
