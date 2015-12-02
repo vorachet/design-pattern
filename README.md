@@ -7,37 +7,44 @@ Javascript design patterns for both browser and Node.js. I am a customer of text
 npm install design-pattern
 ```
 # Usage
-* [Facade](#facade)
-* [Observer](#observer)
+
+## Creational
 * [Prototype](#prototype)
+
+## Structural
+* [Facade](#facade)
 * [Flyweight](#flyweight)
+
+## Behavioral
+* [Observer](#observer)
 
 ## <a name="observer"></a>Observer pattern
 
 * [Implementation example](src/observer.js)
 * [Browser usage example](example/observer.html)
 * [Node.js usage example](example/observer.js)
+* [Output](example/observer.txt)
 
 ## <a name="facade"></a>Facade pattern
 
 * [Implementation example](src/facade.js)
 * [Browser usage example](example/facade.html)
 * [Node.js usage example](example/facade.js)
+* [Output](example/facade.txt)
 
 ## <a name="prototype"></a>Prototype pattern
 
 * [Implementation example](src/prototype.js)
 * [Browser usage example](example/prototype.html)
 * [Node.js usage example](example/prototype.js)
+* [Output](example/prototype.txt)
 
 ## <a name="flyweight"></a>Flyweight pattern
-
-A flyweight is an object that minimizes memory use by sharing as much data as possible with other similar objects; it is a way to use objects in large numbers when a simple repeated representation would use an unacceptable amount of memory. Often some parts of the object state can be shared, and it is common practice to hold them in external data structures and pass them to the flyweight objects temporarily when they are used. (https://en.wikipedia.org/wiki/Flyweight_pattern)
 
 * [Implementation example](src/flyweight.js)
 * [Browser usage example](example/flyweight.html)
 * [Node.js usage example](example/flyweight.js)
-
+* [Output](example/flyweight.txt)
 
 # License
 
