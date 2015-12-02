@@ -1,6 +1,6 @@
 # Javascript design patterns for both browser and Node.js
 
-Javascript design patterns for both browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns". I learn javascript design patterns using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and students who wishing to learn javascript design patterns with my extended code examples.
+Javascript design patterns for both browser and Node.js. I am a customer of text book "Learning JavaScript Design Patterns". I learn javascript design patterns using original source code at [https://github.com/addyosmani/essential-js-design-patterns](https://github.com/addyosmani/essential-js-design-patterns). This project could be an additional support to target audience of the text book and students who wishing to learn javascript design patterns with my code examples and some of my extended code based on the text book. 
 
 # Install
 ```
@@ -10,6 +10,7 @@ npm install design-pattern
 * [Facade](#facade)
 * [Observer](#observer)
 * [Prototype](#prototype)
+* [Flyweight](#flyweight)
 
 ## <a name="observer"></a>Observer pattern
 
@@ -28,6 +29,14 @@ npm install design-pattern
 * [Implementation example](src/prototype.js)
 * [Browser usage example](example/prototype.html)
 * [Node.js usage example](example/prototype.js)
+
+## <a name="flyweight"></a>Flyweight pattern
+
+* [Implementation example](src/flyweight.js)
+* [Browser usage example](example/flyweight.html)
+* [Node.js usage example](example/flyweight.js)
+
+
 
 # License
 

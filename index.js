@@ -1,24 +1,30 @@
 'use strict'
 
 var observer = require('./src/observer'),
-		facade = require('./src/facade'),
-		prototype = require('./src/prototype');
+    facade = require('./src/facade'),
+    prototype = require('./src/prototype'),
+    flyweight = require('./src/flyweight');
 
 
 module.exports = {
-	observerPattern: observerPattern,
-	facadePattern: facadePattern,
-	prototypePattern: prototypePattern
+      observerPattern: observerPattern,
+      facadePattern: facadePattern,
+      prototypePattern: prototypePattern,
+      flyweightPattern: flyweightPattern
 };
 
 function observerPattern(){
-	return observer;
+      return observer;
 }
 
 function facadePattern(){
-	return facade;
+      return facade;
 }
 
 function prototypePattern(){
-	return prototype;
+      return prototype;
+}
+
+function flyweightPattern(){
+      return flyweight;
 }
