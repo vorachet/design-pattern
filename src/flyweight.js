@@ -1,9 +1,6 @@
 
 (function(exports){
 
-      var objectId = 0;
-      function generateObjectId() { return objectId++; };
-
       var flyweightFactory = new FlyweightFactory(); 
 
       exports.add = function(userContextJson){
