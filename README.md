@@ -4,6 +4,8 @@ Javascript design patterns for both browser and Node.js. I am a customer of text
 
 [![NPM](https://nodei.co/npm/design-pattern.png)](https://nodei.co/npm/design-pattern/)]
 
+# Plan
+
 # Install
 ```
 npm install design-pattern
