@@ -53,6 +53,9 @@ git clone https://github.com/vorachet/design-pattern.git
 * [Node.js usage example](example/flyweight.js)
 * [Output](example/flyweight.txt)
 
+## <a name="decorator"></a>Decorator pattern
+
+
 # License
 
 This project is released under a Creative Commons Attribution-Noncommercial- No Derivative Works 3.0 License.
