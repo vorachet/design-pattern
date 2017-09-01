@@ -6,6 +6,8 @@ Javascript design patterns for both browser and Node.js. I am a customer of text
 
 # Plan
 
+# Plan B
+
 # Install
 ```
 npm install design-pattern
